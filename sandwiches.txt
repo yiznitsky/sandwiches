@@ -4,6 +4,6 @@ lettuce
 turkey
 avocado
 salt
-pepper
 swiss
 bread
+toothpick
