@@ -132,7 +132,7 @@ touch - creates empty files. On Unix touch also changes the times on the file. n
 ## Copy a File (cp)
 
 
-Use the cp -r command to copy more directories with files in them.
+Use the `cp -r` command to copy more directories with files in them.
 / (slash) at the end of a directory? That makes sure the file is really a directory, so if the directory doesn't exist I'll get an error.
 
 To copy from one location to another: cp ~/Desktop/file.txt ~/folder
@@ -161,10 +161,12 @@ Similar to rmdir command. -r will recursively remove all it’s contents.
 rm file name
 Be extra cautious when running ‘-r’ command. It’s a good way to delete computer.
 Learn Python the Hard Way:
+
+```bash
 git add .
 git commit
 git push origin master
 git init ---kinda rare
-
+```
 
 
