@@ -1,6 +1,5 @@
 bread
 mayo
-lettuce
 turkey
 salt
 swiss
