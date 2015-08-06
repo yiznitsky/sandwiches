@@ -93,14 +93,18 @@ mkdir makes directories. Making directories within directories is called a “pa
 
 ## Change Directory (cd)
 
-.. to move up. (CLI) Command Line Interface. Important to know how a CLI and GUI work together.
-cd ~/ Home Directory
-cd / Root
+(CLI) Command Line Interface. Important to know how a CLI and GUI work together.
+
+```bash
+cd .. # to move up.
+cd ~ # Home Directory
+cd / # Root
+```
 
 ## List Directory (ls)
 
 ls command lists out the contents in current folder, also helps to see which directory to cd into next.
-**ls -lR ? what’s this command mean? CHUCK
+**`ls -lR` ? what’s this command mean? CHUCK
 
 -l does a longer, fuller listing
 -R does a recursive search through child directories and children of children directories.
@@ -115,7 +119,7 @@ Once you've confirmed that you really, really don't want any of that content, yo
 
 These commands let you temporarily go to a different directory and then come back, easily switching between the two.
 
-pushd - takes current directory and ‘pushes’ it into a list for later, then it changes to another directory.  “Save where I am, then go here.”
+pushd - takes current directory and "pushes" it into a list for later, then it changes to another directory.  “Save where I am, then go here.”
 
 pops - takes the last directory you pushed and “pops” it off, takes you back there.
 
