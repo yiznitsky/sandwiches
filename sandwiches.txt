@@ -2,7 +2,6 @@ bread
 mayo
 lettuce
 turkey
-avocado
 salt
 swiss
 bread
